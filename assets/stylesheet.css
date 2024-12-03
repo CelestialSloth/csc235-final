@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+}
+.column {
+    flex: row
+}
+
+#far-left-div {
+    width: 40%;
+}
+#bar-div {
+    width: 100%;
+}
+#borough-div, #neighborhood-div {
+    width: 50%
+}
+#map-div {
+    width: 40%
+}
+#scatter-div {
+    width: 20%;
+}
+.scatter {
+    width: 100%;
+    height: 250px;
+}
