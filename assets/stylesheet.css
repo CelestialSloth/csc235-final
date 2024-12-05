@@ -1,3 +1,17 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header-div {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#metric-dropdown {
+    margin-bottom: 20px;
+    width: 400px;
+}
+
 .row {
     display: flex;
 }
@@ -6,16 +20,32 @@
     flex: row
 }
 
-#far-left-div {
-    width: 40%;
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#visualization-div {
+    margin-top: 20px;
+    padding-top: 20px;
 }
 
 #bar-div {
-    width: 100%;
+    width: 40%;
 }
 
 #borough-div, #neighborhood-div {
-    width: 50%
+    width: 50%;
+}
+
+button {
+    float: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 10pt;
+    margin-top: 10px;
 }
 
 #map-div {
