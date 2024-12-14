@@ -49,7 +49,7 @@ button {
 }
 
 #map-div {
-    width: 40%
+    width: 40%;
 }
 
 #scatter-div {
@@ -59,4 +59,8 @@ button {
 .scatter {
     width: 100%;
     height: 250px;
+}
+.chart {
+    width: 100%;
+    height: 700px;
 }
